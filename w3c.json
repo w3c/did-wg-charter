@@ -1,5 +1,8 @@
  {
-    "group":      [117488]
-,   "contacts":   ["iherman"]
-,   "repo-type":  "rec-track"
+    "group":      [117488],
+    "contacts": [
+        "iherman"
+    ],
+    "policy": "open",
+    "repo-type": "process"
 }
