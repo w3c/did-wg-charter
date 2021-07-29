@@ -1,5 +1,4 @@
 
-# Specification 'did-wg-charter'
+# Development of the new DID WG Charter (2021)
 
-This is the repository for did-wg-charter. You're welcome to contribute! Let's make the Web rock our socks
-off!
+This is the repository to create a new charter for the [DID Working Group](https://www.w3.org/2019/did-wg/). See the current draft at [Github io](https://w3c.github.io/did-wg-charter/).
