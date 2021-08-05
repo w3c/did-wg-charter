@@ -135,7 +135,9 @@
       </section>
 
       <section id="background" class="background">
-        <p>The Working Group will maintain the <a href="https://www.w3.org/TR/did-core/">DID Identifiers</a> specification, which defines a new type of identifier that enables verifiable, decentralized digital identity.</p>
+        <p>
+          The Working Group will maintain the <a href="https://www.w3.org/TR/did-core/">DID</a> specification, which defines a new type of identifier that enables verifiable, decentralized digital identity. This includes possible <a href="https://www.w3.org/2020/Process-20200915/#correction-classes">class 1, 2, or 3 </a> level changes on the Recommendation.
+        </p>
       </section>
 
       <section id="scope" class="scope">
@@ -149,7 +151,7 @@
             <a href="https://www.w3.org/TR/did-spec-registries/">DID Specification Registries</a>, including transitioning it from a WG Note to a W3C Registry, should such a formal registry be defined by W3C Process and should that process allow such a transition.
           </li>
           <li>
-            Decentralized Characteristics Rubric
+            <a href="https://www.w3.org/TR/did-rubric/">DID Method Rubric</a> <i class=todo>(Note: this link is currently 404, the planned publication for this note is mid-August)</i>
           </li>
           <li>
             <a href="https://www.w3.org/TR/did-cbor-representation/">The Plain CBOR representation</a>
@@ -164,13 +166,14 @@
 
             <ul>
               <li>
+
+                <a href="https://www.w3.org/2020/Process-20200915/#correction-classes">Class 4</a> level changes on the <a href="https://www.w3.org/TR/did-core/">DID</a> specification.
+              </li>
+              <li>
                   Authentication or Authorization Protocols
               </li>
               <li>
                   Browser APIs
-              </li>
-              <li>
-                  Specific DID Method specifications or Protocol specifications
               </li>
               <li>
                   "Solving Identity" on the Web
@@ -200,13 +203,15 @@
           <dl>
             <dt><a href="https://www.w3.org/TR/did-core/">Decentralized Identifiers (DIDs) v1.0</a></dt>
             <dd>
-              Latest publication: <i class=todo>@@@@</i>.
-              <br>
-              Reference Draft: <i class=todo>The final Recommendation reference when it is out</i>
-              <br>
-              associated <a href="https://www.w3.org/mid/cfe-8207-eacee75cfbd6cba6f474056c47d26d35b57ca134@w3.org">Call for exclusion</a> started on 2021-06-15, opportunity until 2021-08-14
-              <br>
-              Produced under Working Group Charter: <a href="https://www.w3.org/2020/12/did-wg-charter.html">https://www.w3.org/2020/12/did-wg-charter.html</a>.
+              <p>
+                Latest publication: <i class=todo>2021-09-@@@@</i>.
+                <br>
+                Reference Draft: <i class=todo>https://www.w3.org/TR/2021/REC-did-core-202109@@@@</i>
+                <br>
+                Associated <a href="https://www.w3.org/mid/cfe-8207-eacee75cfbd6cba6f474056c47d26d35b57ca134@w3.org">Call for exclusion</a> started on 2021-06-15, opportunity until 2021-08-14
+                <br>
+                Produced under Working Group Charter: <a href="https://www.w3.org/2020/12/did-wg-charter.html">https://www.w3.org/2020/12/did-wg-charter.html</a>.  
+              </p>
             </dd>
           </dl>
         </section>
@@ -219,21 +224,30 @@
           <dl>
             <dt><a href="https://www.w3.org/TR/did-spec-registries/">DID Specification Registries</a></dt>
             <dd>
-              Status: Group Note
-              <br>
-              Last update: <i class=todo>@@@@@</i>
+              <p>
+                Status: Group Note
+                <br>
+                Last update: <i class=todo>@@@@@</i>
+              </p>                
+              <p>
+                If, during the chartered period of the Working Group, the <a href="https://www.w3.org/Consortium/Process/Drafts/">next version of the W3C Process</a> is adopted, incorporating the concept of a <a href="https://www.w3.org/Consortium/Process/Drafts/#registries">Registry Track</a>, the Working Group will consider publishing the DID Specification Registries as a Registry Track document instead of a Working Group Note.
+              </p>
             </dd>
-            <dt>Decentralized Characteristics Rubric</dt>
+            <dt><a href="https://www.w3.org/TR/did-rubric/">DID Method Rubric</a></dt>
             <dd>
-              Status: Group Note
-              <br>
-              Last update: <i class=todo>@@@@@</i>
+              <p>
+                Status: Group Note
+                <br>
+                Last update: <i class=todo>@@@@@</i>  
+              </p>
             </dd>
             <dt><a href="https://www.w3.org/TR/did-cbor-representation/">The Plain CBOR representation</a></dt>
             <dd>
-              Status: Group Note
-              <br>
-              Last update: 2021-06-29
+              <p>
+                Status: Group Note
+                <br>
+                Last update: 2021-06-29  
+              </p>
             </dd>
           </dl>
   
@@ -276,14 +290,8 @@
                   Coordination on other specifications related to Decentralized Identifiers.
               </dd>
               <dt>
-                  <a href="https://www.w3.org/2018/json-ld-wg/">JSON-LD Working Group</a>
-            </dt>
-              <dd>
-                  Coordination to ensure that the JSON-LD syntax meets the DID Working Group's needs.
-              </dd>
-              <dt>
                   <a href="https://www.w3.org/blog/webauthn/">Web Authentication Working Group</a>
-            </dt>
+              </dt>
               <dd>
                   Coordination to ensure that Web Authentication primitives, such as public keys, can be expressed in DID Documents.
               </dd>
@@ -424,25 +432,25 @@
                 <td> <i>none</i> </td>
               </tr>
               <tr>
-                <th> Initial Charter  </th>
+                <th> <a href="https://www.w3.org/2019/08/did-wg-charter.html">Initial Charter</a>  </th>
                 <td> <i>September 2019</i> </td>
                 <td> <i>September 2021</i> </td>
                 <td> <i>Changed an erroneous link to the <a href="https://www.w3.org/2019/did-wg/PublStatus">publication status page</a> (Ivan Herman, 2020-01-24)</i> </td>
               </tr>
               <tr>
-                <th> Update  </th>
+                <th> <a href="https://www.w3.org/2019/08/did-wg-charter.html">Update</a></th>
                 <td>  </td>
                 <td></td>
                 <td> <i><a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2020JulSep/0013.html">Daniel Burnett re-appointed as group co-Chair</a> (Xueyuan Jia, 2020-07-24)</i> </td>
               </tr>
               <tr>
-                <th>Rechartered</th>
+                <th><a href="https://www.w3.org/2020/12/did-wg-charter.html">Rechartered</a></th>
                 <td>15 December 2020</td>
                 <td>September 2021</td>
                 <td>New Patent Policy</td>
               </tr>
               <tr>
-                <th> Update </th>
+                <th> <a href="https://www.w3.org/2020/12/did-wg-charter.html">Update</a> </th>
                 <td> <i>June 2021</i> </td>
                 <td> <i>September 2021</i></td>
                 <td> FTE value update for staff contact: 0.2 reduced to 0.15 </td>
