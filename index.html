@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Decentralized Identifier Working Group Charter</title>
+    <title>Decentralized Identifier Resolution Working Group Charter</title>
 
     <link rel="stylesheet" href="https://www.w3.org/2005/10/w3cdoc.css" type="text/css" media="screen">
     <link rel="stylesheet" type="text/css" href="https://www.w3.org/OldGuide/pubrules-style.css">
@@ -72,26 +72,19 @@
 
 
     <main>
-      <h1 id="title"><i class="todo">PROPOSED</i> Decentralized Identifier Working Group Charter</h1>
+      <h1 id="title"><i class="todo">PROPOSED</i> Decentralized Identifier Resolution Working Group Charter</h1>
       <!-- delete PROPOSED after AC review completed -->
 
       <p class="mission">
 The <strong>mission</strong> of the
-<a href="https://www.w3.org/2019/did-wg/">Decentralized Identifier Working Group</a>
-is to maintain the <a href="https://www.w3.org/TR/did-core/">Decentralized Identifiers (DIDs)</a>
-specification and related Working Group Notes. The WG will also seek consensus
-around the specification of DID Methods and DID Resolution.
+ Decentralized Identifier Resolution Working Group
+is to standardize interoperable means of resolving Decentralized Identifiers (DIDs) and maintain the <a href="https://www.w3.org/TR/did-core/">Decentralized Identifiers</a>
+specification and related Working Group Notes. 
       </p>
 
       <div class="noprint">
-        <p class="join"><a href="https://www.w3.org/2004/01/pp-impl/117488/join">Join the Decentralized Identifier Working Group.</a></p>
+        <p class="join"><a href="https://www.w3.org/2004/01/pp-impl/117488/join">Join the Decentralized Identifier Resolution Working Group.</a></p>
       </div>
-
-         <p style="padding: 0.5ex; border: 1px solid green"> This proposed charter is available
-      on <a href="https://github.com/w3c/did-wg-charter">GitHub</a>.
-
-    Feel free to raise <a href="https://github.com/w3c/did-wg-charter/issues">issues</a>.
-          </p>
 
       <section id="details">
         <table class="summary-table">
@@ -116,7 +109,8 @@ around the specification of DID Methods and DID Resolution.
               Chairs
             </th>
             <td>
-              Brent Zundel (Avast), <i class='todo'>T.B.D.</i>
+              Christopher Allen (Blockchain Commons), 
+              Ganesh Annan (Digital Bazaar)
             </td>
           </tr>
           <tr>
@@ -134,35 +128,41 @@ around the specification of DID Methods and DID Resolution.
             <td>
               <strong>Teleconferences:</strong> On an as-needed basis, up to once every month
               <br>
-              <strong>Face-to-face:</strong> None.
+              <strong>Face-to-face:</strong> At least one. To be scheduled after chartering.
             </td>
           </tr>
         </table>
       </section>
 
       <section id="background" class="background">
-        <p>
-The Working Group will maintain the <a href="https://www.w3.org/TR/did-core/">DID</a>
-specification, which defines a new type of identifier that enables verifiable,
-decentralized digital identity. This includes possible
-<a href="https://www.w3.org/2020/Process-20200915/#correction-classes">class 1, 2, or 3 </a>
-level changes on the Recommendation.
-        </p>
-        <p>
-The Working Group will also seek consensus around DID Method specifications, and
-may produce related documents.
-        </p>
-        <p>
-The Working Group will begin working toward a specification for DID Resolution
-and DID URL Dereferencing.
-        </p>
+
       </section>
 
       <section id="scope" class="scope">
 
         <h2>Scope</h2>
+        <p>
+          The Working group will develop the Decentralized Identifier
+          Resolution
+          (DID Resolution) specification from its current status as a <a
+            href="https://w3c-ccg.github.io/did-resolution/">W3C Credentials
+            Community Group Draft Community Report</a>.
+        <p>
+          The Working Group will also maintain the <a
+            href="https://www.w3.org/TR/did-core/">DID</a>
+          specification, which defines a type of identifier that enables
+          verifiable,
+          decentralized digital identity. This includes possible
+          <a
+            href="https://www.w3.org/2020/Process-20200915/#correction-classes">class
+            1, 2, or 3 </a>
+          level changes on the Recommendation.
+        </p>
+        <p>
+          The Working Group may produce related non-normative documents.
+        </p>
 
-        <p>Beyond the maintenance of the <a href="https://www.w3.org/TR/did-core/">DID Identifiers</a> specification, the following, non-normative Working Group Notes will also be maintained by the Working Group.</p>
+        <p>In addition, the following, non-normative Working Group Notes will also be maintained by the Working Group.</p>
 
         <ul>
           <li>
@@ -180,13 +180,7 @@ and DID URL Dereferencing.
         </ul>
 
         <p>The Working Group may also publish new Working Group Notes that may be necessary to clarify, help the deployment and usage, or propose new features to the Group’s main recommendation-track deliverable.</p>
-        <p>
-The Working Group may also publish new Working Group Notes, Editors Drafts, or
-Working Drafts for DID Resolution or DID URL Dereferencing, or of DID Method
-Specifications. Any documents intended for Recommendation will be limited to the
-Working Draft maturity level.
-        </p>
-
+        
         <section id="section-out-of-scope">
           <h3 id="out-of-scope">Out of Scope</h3>
             <p>The following features are out of scope, and will not be addressed by this Working group.</p>
@@ -204,6 +198,9 @@ Working Draft maturity level.
               <li>
                   "Solving Identity" on the Web
               </li>
+              <li>
+                  Specifications for individual DID Methods
+              </li>
           </ul>
         </section>
       </section>
@@ -220,9 +217,30 @@ Working Draft maturity level.
             Normative Specifications
           </h3>
           <p>
-            The Working Group will maintain the following W3C normative specification:
+            The Working Group will define the following W3C normative
+            specification:
           </p>
+          
+          <dl>
+            <dt><a href="https://www.w3.org/TR/did-resolution/">Decentralized
+                Identifier Resolution (DID Resolution) v1.0</a></dt>
+            <dd>
+              <p>
+                Latest publication: <i>2023-01-18</i>.
+                <br>
+                Reference Document: <a
+                  href="https://w3c-ccg.github.io/did-resolution/">https://w3c-ccg.github.io/did-resolution/</a>
+                <br>
+                Produced under Credentials Community Group Charter: <a
+                  href="https://www.w3.org/community/credentials/charter/">https://www.w3.org/community/credentials/charter/</a>.
+              </p>
+            </dd>
+          </dl>
 
+          <p>
+            The Working Group will maintain the following W3C normative
+            specification:
+          </p>
           <dl>
             <dt><a href="https://www.w3.org/TR/did-core/">Decentralized Identifiers (DIDs) v1.0</a></dt>
             <dd>
@@ -253,7 +271,7 @@ Working Draft maturity level.
                 Last update: 2021-11-02
               </p>                
               <p>
-                The Working Group Note will be transitioned to a <a href="https://www.w3.org/2021/Process-20211102/#registries">W3C Registry</a>.
+                The Working Group Note may be transitioned to a <a href="https://www.w3.org/2021/Process-20211102/#registries">W3C Registry</a>.
               </p>
             </dd>
             <dt><a href="https://www.w3.org/TR/did-rubric/">DID Method Rubric</a></dt>
@@ -264,7 +282,7 @@ Working Draft maturity level.
                 Last update: 2021-11-19  
               </p>
               <p>
-                The Working Group Note will be transitioned to a <a href="https://www.w3.org/2021/Process-20211102/#registries">W3C Registry</a>.
+                The Working Group Note may be transitioned to a <a href="https://www.w3.org/2021/Process-20211102/#registries">W3C Registry</a>.
               </p>
             </dd>
             <dt><a href="https://www.w3.org/TR/did-cbor-representation/">The Plain CBOR representation</a></dt>
@@ -489,63 +507,9 @@ Working Draft maturity level.
               </tr>
               <tr>
                 <th> <a href="https://www.w3.org/2019/08/did-wg-charter.html">Initial Charter</a> </th>
-                <td> <i>September 2019</i> </td>
-                <td> <i>September 2021</i> </td>
+                <td> <i>TBD 2023</i> </td>
+                <td> <i>TBD 2025</i> </td>
                 <td> <i>none</i> </td>
-              </tr>
-              <tr>
-                <th> <a href="https://www.w3.org/2019/08/did-wg-charter.html">Update</a>  </th>
-                <td></td>
-                <td></td>
-                <td> <i>Changed an erroneous link to the <a href="https://www.w3.org/2019/did-wg/PublStatus">publication status page</a> (Ivan Herman, 2020-01-24)</i> </td>
-              </tr>
-              <tr>
-                <th> <a href="https://www.w3.org/2019/08/did-wg-charter.html">Update</a></th>
-                <td>  </td>
-                <td></td>
-                <td> <i><a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2020JulSep/0013.html">Daniel Burnett re-appointed as group co-Chair</a> (Xueyuan Jia, 2020-07-24)</i> </td>
-              </tr>
-              <tr>
-                <th><a href="https://www.w3.org/2020/12/did-wg-charter.html">Rechartered</a></th>
-                <td>15 December 2020</td>
-                <td>September 2021</td>
-                <td>New Patent Policy</td>
-              </tr>
-              <tr>
-                <th> <a href="https://www.w3.org/2020/12/did-wg-charter.html">Update</a> </th>
-                <td></td>
-                <td></td>
-                <td> FTE value update for staff contact: 0.2 reduced to 0.15 (2021-06)</td>
-              </tr>
-              <tr>
-                <th> <a href="https://www.w3.org/2020/12/did-wg-charter.html">Extension</a> </th>
-                <td>1 October 2021</td>
-                <td>31 December 2021</td>
-                <td>none</td>
-              </tr>
-              <tr>
-                <th> <a href="https://www.w3.org/2020/12/did-wg-charter.html">Extension</a> </th>
-                <td>31 December 2021</td>
-                <td>30 June 2022</td>
-                <td>none</td>
-              </tr>
-              <tr>
-                <th> <a href="https://www.w3.org/2020/12/did-wg-charter.html">Update</a> </th>
-                <td></td>
-                <td></td>
-                <td>Added Pierre-Antoine Champin as staff contact <em>(Ivan Herman, 2022-01-12)</em></td>
-              </tr>
-              <tr>
-                <th> <a href="https://www.w3.org/2020/12/did-wg-charter.html">Extension</a> </th>
-                <td>30 June 2022</td>
-                <td>31 December 2022</td>
-                <td>none</td>
-              </tr>
-              <tr>
-                <th> <a href="https://www.w3.org/2020/12/did-wg-charter.html">Update</a> </th>
-                <td></td>
-                <td></td>
-                <td>(1) Brent Zundel's affiliation changed to Avast; (2) Ivan Herman is no longer staff contact <em>(Ivan Herman, 2022-07-19)</em></td>
               </tr>
             </tbody>
           </table>
@@ -569,24 +533,11 @@ Working Draft maturity level.
     <hr>
 
     <footer>
-      <address>
-        <i class="todo"><a href="mailto:ivan@w3.org">Ivan Herman</a></i>
-      </address>
 
       <p class="copyright">
-        <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> ©2021
-        <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup>
-        (
-        <a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
-        <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>,
-        <a href="https://www.keio.ac.jp/">Keio</a>,
-        <a href="https://ev.buaa.edu.cn/">Beihang</a>
-        ), All Rights Reserved.
-
         <abbr title="World Wide Web Consortium">W3C</abbr> <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="https://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply.
       </p>
       <hr>
-      <p><a href="https://github.com/w3c/did-wg-charter">Yes, it's on GitHub!</a>.</p>
     </footer>
 
   </body>
